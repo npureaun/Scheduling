@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: postgres.mujbwjiairkxsvwoyvde
+    url: jdbc:postgresql://aws-0-ap-northeast-2.pooler.supabase.com:6543/postgres
+    password: OSqX72GpnI6ljHp8
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        highLight_sql: 'true'
+        format_sql: 'true'
+        show_sql: 'true'
+  batch:
+    jdbc:
+      initialize-schema: always
